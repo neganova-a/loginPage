@@ -74,4 +74,9 @@ public class LoginPage {
         return passwordField.getAttribute(attributeName);
     }
 
+    public void clearFields() {
+        emailField.clear();
+        passwordField.clear();
+    }
+
 }
